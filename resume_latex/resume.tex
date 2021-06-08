@@ -1,0 +1,109 @@
+%% The MIT License (MIT)
+%%
+%% Copyright (c) 2015 Daniil Belyakov
+%%
+%% Permission is hereby granted, free of charge, to any person obtaining a copy
+%% of this software and associated documentation files (the "Software"), to deal
+%% in the Software without restriction, including without limitation the rights
+%% to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+%% copies of the Software, and to permit persons to whom the Software is
+%% furnished to do so, subject to the following conditions:
+%%
+%% The above copyright notice and this permission notice shall be included in all
+%% copies or substantial portions of the Software.
+%%
+%% THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+%% IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+%% FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+%% AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+%% LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+%% OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+%% SOFTWARE.
+    % The font could be set to Windows-specific Calibri by using the 'calibri' option
+\documentclass[]{twentysecondcv}
+
+    % For mathematical symbols
+\usepackage{amsmath}
+
+  
+    % Set applicant's personal data for header
+    \name{Manish Nehara}
+   \address {+91-9177592030 \linebreak Bengaluru, KA }
+    \contacts{mknehra38@gmail.com \linebreak www.linkedin.com/in/manishnehara}
+  
+
+\begin{document}
+% Print the header
+\makeheader
+\begin{cvsection}{Experience}
+    
+    
+	\begin{cvsubsection}{Senior Software Engineer}{Verifone}{May 2019 - present}
+		            
+		
+		    Was responsible for successfully completing "\textbf{Entity Service}" project, which provides a common Application to store and retrieve \textbf{Merchant on-boarding data}. Entity Service stores merchant details in a graph database (\textbf{RedisGraph}) with the help of rationalized hierarchical structure defined.
+    
+	\begin{itemize}%
+	        \item \textbf{Security Token Service:} Designed service for Security with \textbf{JWT Authentication}. User will get a valid JSON Web Token with role permissions and then allow the user access to the api only if it has a valid token and api-level permission.
+		    \item \textbf{Merhcant Services:} Designed and developed loosly coupled \textbf{Microservices} to store merchant data and their user's profiles and credentials data in hierarchical structure.
+		     \item \textbf{Sync Service:} Designed and developed Sync Service using \textbf{kafka} to keep the merchant data back-up by synchronizing data b/w different data centers.
+		       \item \textbf{Messaging Service:} Developed MicroServices to send relevant user data to alert users in case if their password is going to expire or if it is already expired.
+     \item \textbf{IDM-User Management:} Designed and Integrated Entity Service with IDM for ensuring that the right users have the appropriate access to technology resources.
+     \item \textbf{AGILE :}  Working in agile methodology and familiar with Jira, Bitbucket, IJ, SourceTree, git.
+ 
+	\end{itemize}
+	\end{cvsubsection}
+	\begin{cvsubsection}{Software Engineer}{CGI Group}{Aug, 2017 - May, 2019}
+		\begin{itemize}%
+		\item \textbf{ABI:} Improved performance of existing tool which was used to map internal data with thried party services.
+		\item Desinged and 	Developed \textbf{Rest-Apis} for existing project.
+		\item \textbf{Full-Stack Developer - StackRoute: } Designed and developed  \textbf{WorkFlow Engine} from scratch till deployment. 
+			\begin{itemize}%
+			\item \textbf{Distributed Workflow Engine : }Contributed to the development of distributed workflow engine (equivalent 
+to \textbf{CI-CD}). The engine could be configured to automate a set of tasks 
+e.g. git push, clone or sending a message on twitter, simple tasks.
+	\end{itemize}
+		
+		\end{itemize}
+	\end{cvsubsection}
+\end{cvsection}
+\begin{cvsection}{Education}
+	\begin{cvsubsection}{Warangal}{National Institute of Technology}{Aug, 2013-May, 2017}
+		\begin{itemize}
+			\item \textbf{B.Tech, Computer Science and Engineering}.
+		\end{itemize}
+	\end{cvsubsection}
+\end{cvsection}
+
+\begin{cvsection}{Technical Skills}
+	\begin{cvsubsection}{}{}{}
+		\begin{itemize}
+			\item \textbf{Programming languages:}  C, C++, Java, Python(beginner), SQL, HTML ,CSS 5, Angular 4, React(beginner)
+			\item \textbf{Databases:} RedisGraph, MySQL, MongoDB, Neo4j
+			\item \textbf{Frameworks/Tools:} Spring Boot, Django(beginner), , Kafka, JMeter, Kibana, AppDynamis, MobaXtream, Cloud Services(beginner)  
+			\item \textbf{Operating systems:}  Ubuntu, Windows 
+		 
+		\end{itemize}
+	\end{cvsubsection}
+\end{cvsection}
+% \begin{cvsection}{Projects}
+% 	\begin{cvsubsection}{}{}{}
+% 		\begin{itemize}
+% 			\setlength\itemsep{3pt}
+% 			\item \textbf{Analysis of the Performance of DNA Sequence Compression Algorithms} Developed an algorithm to analyze the performance between ERGC(Efficient Referential Genome Compression) algorithm and NRGC (Novel Referential Genome Compression) algorithm. Paper published in HELIX Conference (https://bit.ly/2TO2jLb).
+% 			\item \textbf{P2P} Developed Web based P2P file sharing application build on data channel API.
+% 		\end{itemize}
+% 	\end{cvsubsection}
+% \end{cvsection}
+\begin{cvsection}{Honors and Achievements}
+	\begin{cvsubsection}{}{}{}
+		\begin{itemize}
+			\setlength\itemsep{3pt} 
+			\item Received \textbf{Discretionary Retention Award-2020}  for outstanding performance in Verifone.
+			\item June 2016 Online Coding Competition – \textbf{14th} rank
+			\item Rank \textbf{4107} out of 12 lakh candidates in JEE Main, 2013.
+            
+		\end{itemize}
+	\end{cvsubsection}
+\end{cvsection}
+\end{document}
